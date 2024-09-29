@@ -1,0 +1,31 @@
+/* CLASSES GERAIS */
+.botao {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 18px;
+}
+
+.botaoAzul {
+    background: linear-gradient(90.28deg, #1E71E3 0.24%, #3897F1 99.79%);
+    border: 0;
+}
+
+
+/* MENU */
+.menuIcone {
+    max-width: 25px;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuBotao {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
