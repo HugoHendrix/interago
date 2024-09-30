@@ -59,12 +59,13 @@
     width: 100%;
     height: auto;
     overflow: hidden;
+    z-index: -2;
 }
 
 
 .relatorioVendas {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 5%;
     transform: translateY(-50%);
     max-width: 470px;
@@ -73,9 +74,55 @@
 
 .relatorioVisitas {
     position: absolute;
-    top: 50%;
+    top: 20%;
     right: 5%;
     transform: translateY(-50%);
     max-width: 470px;
     z-index: 2;
 }
+
+/* DESTAQUES */
+.destaqueContainer { 
+    background-color: #fff; 
+    padding-top: 150px; 
+    margin-top: -280px; 
+    z-index: 3; }
+
+.destaqueBox { 
+    margin-bottom: 30px;
+}
+
+.destaqueTitulo { 
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.destaqueDescricao { 
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1a1a1a;
+    line-height: 1.4;
+}
+
+
+/* LOGOS */
+.destaqueContainerLogo {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 50px 0;
+}
+
+
+.destaqueLogo {
+    max-width: 150px; 
+    margin: 0 15px; 
+    filter: grayscale(100%); 
+ 
+}
+
