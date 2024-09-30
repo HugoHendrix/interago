@@ -12,16 +12,19 @@
     border: 0;
 }
 
-
 /* MENU */
 .menuIcone {
     max-width: 25px;
 }
 
+.menuLogo {
+    margin-inline-start: 250px;
+}
+
 .menuContainer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menuBotao {
@@ -29,3 +32,22 @@
     border: 1px solid #fff;
 }
 
+/* HERO */
+.heroContainer {
+    text-align: center;
+    margin-block: 100px;
+}
+
+.heroTitulo {
+    margin-bottom: 30px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.heroDescricao {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
