@@ -1,16 +1,4 @@
-/* CLASSES GERAIS */
-.botao {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 6px 14px;
-    border-radius: 18px;
-}
 
-.botaoAzul {
-    background: linear-gradient(90.28deg, #1E71E3 0.24%, #3897F1 99.79%);
-    border: 0;
-}
 
 /* MENU */
 .menuIcone {
@@ -54,7 +42,7 @@
 
 /* IMAGENS DE RELATORIO */
 
-.relatorioContainer { 
+.relatorioContainer {
     position: relative;
     width: 100%;
     height: auto;
@@ -82,24 +70,26 @@
 }
 
 /* DESTAQUES */
-.destaqueContainer { 
-    background-color: #fff; 
-    padding-top: 150px; 
-    margin-top: -280px; 
-    z-index: 3; }
+.destaqueContainer {
+    background-color: #fff;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    margin-top: -280px;
+    z-index: 3;
+}
 
-.destaqueBox { 
+.destaqueBox {
     margin-bottom: 30px;
 }
 
-.destaqueTitulo { 
+.destaqueTitulo {
     margin-bottom: 30px;
     font-size: 40px;
     font-weight: 700;
     color: #1a1a1a;
 }
 
-.destaqueDescricao { 
+.destaqueDescricao {
     margin-bottom: 30px;
     font-size: 18px;
     font-weight: 500;
@@ -110,8 +100,8 @@
 
 /* LOGOS */
 .destaqueContainerLogo {
-    display: flex; 
-    justify-content: space-around; 
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -120,9 +110,90 @@
 
 
 .destaqueLogo {
-    max-width: 150px; 
-    margin: 0 15px; 
-    filter: grayscale(100%); 
- 
+    max-width: 150px;
+    margin: 0 15px;
+    filter: grayscale(100%);
+
 }
 
+/* INTEGRAÇÕES */
+.integracaoContainer {
+    padding-block: 100px;
+    text-align: center;
+}
+
+.integracaoSubtitulo {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 3.5%;
+    color: #1E71E3;
+    ;
+}
+
+.integracaoTitulo {
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.integracaoDescricao {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 3.5%;
+    color: #1a1a1a;
+}
+
+.integracaoCard {
+    margin-bottom: 30px;
+    padding: 40px 20px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.integracaoLogo {
+    max-width: 280px;
+}
+
+.integracaoCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.integracaoCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: 300px;
+    text-align: center;
+}
+
+.integracaoCard:nth-child(4),
+.integracaoCard:nth-child(5) {
+    flex: 1 1 calc(50% - 20px);
+}
+
+.integracaoLogo {
+    max-width: 280px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .integracaoCard {
+        flex: 1 1 100%;
+    }
+}
