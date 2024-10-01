@@ -1,5 +1,3 @@
-
-
 /* MENU */
 .menuIcone {
     max-width: 25px;
@@ -186,71 +184,78 @@
 }
 
 /* INFRAESTRUTURA */
-.bgInfra { 
+.bgInfra {
     background: linear-gradient(180deg, #0C0B17 0%, #0C0E1C 10.48%, #09254A 100%);
 }
 
 .infraContainer { 
-    padding-block: 100px;
+    padding: 110px 60px;
 }
 
-.infraSubtitulo { 
+.infraBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 60px;
+    border: 1px solid #d3d3d35e;
+    border-radius: 12px;
+
+}
+
+.infraColuna {
+    flex: 1;
+    min-width: 300px;
+}
+
+.infraSubtitulo {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 500;
-    line-height: 1.6;
+    line-height: 1.4;
     letter-spacing: 3.5%;
     color: #1E71E3;
+    ;
 }
 
-.infraTitulo { 
-    margin-bottom: 30px;
-    font-size: 32px;
+.infraTitulo {
+    margin-bottom: 20px;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 1.6;
+
     color: #fff;
 }
 
-.infraIcone { 
-    margin-inline: auto; 
-    padding: 0px 10px; 
-}
-
-.infraDescricao { 
+.infraDescricao {
+    display: flex;
+    align-items: center;
     margin-bottom: 15px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.6;
+    line-height: 1.4;
     letter-spacing: 3.5%;
     color: #fff;
+
 }
 
-.container.full.bgInfra {
-    position: relative;
-    padding: 150px 0; 
-}
-
-.bordaCinza {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #af9c9c65;
+.infraIcone {
+    margin-right: 10px;
 }
 
 
-.bordaSuperior {
-    top: 100; 
-}
 
-.bordaInferior {
-    bottom: 100; 
-}
+
 
 
 
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
+    .infraContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
     .integracaoCard {
         flex: 1 1 100%;
     }
