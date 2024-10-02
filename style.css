@@ -371,20 +371,22 @@
     text-decoration: underline;
 }
 
+
+
 /* RODAPE */
-.rodapeContainer { 
+.rodapeContainer {
     padding: 90px 90px 20px;
-    border-radius: 40px 40px 0px 0px;    
+    border-radius: 40px 40px 0px 0px;
 }
 
-.rodapeTitulo { 
+.rodapeTitulo {
     margin-bottom: 30px;
     font-size: 38px;
     font-weight: 700;
     color: #fff;
 }
 
-.rodapeSubtitulo { 
+.rodapeSubtitulo {
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: 700;
@@ -392,8 +394,7 @@
 }
 
 
-.rodapeInfo { 
-    margin-bottom: 10px;
+.rodapeInfo {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
@@ -402,9 +403,12 @@
 .copyrightBox {
     border-top: solid 1px #ffffff20;
     padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.copy { 
+.copy {
     padding-block: 15px;
     font-size: 16px;
     font-weight: 400;
