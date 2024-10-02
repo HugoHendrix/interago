@@ -8,7 +8,7 @@
 html { overflow-y: scroll; -webkit-scroll-behavior: smooth; -moz-scroll-behavior: smooth; scroll-behavior: smooth;  margin: 0;
    padding: 0;}
 
-body { background: #fff; overflow: hidden;   font-family: "Raleway", system-ui; }
+body { background: transparent; overflow: hidden;   font-family: "Raleway", system-ui; }
 
 h1, h2, h3, h4, h5, h6 {
    margin: 0;
@@ -247,7 +247,9 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
 .z-index2 { z-index: 2; }
 
 /* Classes Especificas Site */
-.bgTema { background: linear-gradient(180deg, #0C0B17 0%, #0C0E1C 10.48%, #09254A 100%); background-repeat: no-repeat;}
+.bgTema { background: #103657}
+.bgTransparente { background-color: transparent; }
+.bgNone { background: none; }
 
 .bgIntegracao { background: linear-gradient(180deg, #EEEEEE 0%, #DDDDDD 100%); }
 
