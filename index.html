@@ -14,8 +14,8 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link type="text/css" rel="stylesheet" href="geral.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <div class="container full pb50">
+        <div class="container full pb100">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -74,7 +74,7 @@
     </div>
 
 
-    <div class="container full destaqueContainer">
+    <div class="container full destaqueContainer" data-aos="fade-right" data-aos-duration="2000">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -88,12 +88,12 @@
                         <a href="#" class="botao botaoAzul">Começar agora</a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
                     <img src="img/inicial-interago.png" class="destaqueBanner" width="100%" alt="">
                 </div>
             </div>
             <div class="col-md-12">
-                <div class="destaqueContainerLogo">
+                <div class="owl-carousel owl-theme destaqueContainerLogo">
                     <img src="img/logoClientes/ceftemLogo.png" class="destaqueLogo" alt="Logo Ceftem">
                     <img src="img/logoClientes/logoduck.png" class="destaqueLogo" alt="Logo Duck">
                     <img src="img/logoClientes/logolavilla.png" class="destaqueLogo" alt="Logo Lavilla">
@@ -101,6 +101,7 @@
                     <img src="img/logoClientes/logothermas.png" class="destaqueLogo" alt="Logo Thermas">
                 </div>
             </div>
+            
         </div>
     </div>
 
@@ -228,15 +229,25 @@
     </div>
 
     <div class="container full">
-        <img src="img/telasClientes/screenAcqualinda.png" width="100%" class="siteExemplo" alt="">
-        <img src="img/telasClientes/screenCeftem.jpg" width="100%" class="siteExemplo" alt="">
-        <img src="img/telasClientes/screenDuckbill.png" width="100%" class="siteExemplo" alt="">
-        <img src="img/telasClientes/screenFutmarketing.png" width="100%" class="siteExemplo" alt="">
-        <img src="img/telasClientes/screenLaVilla.png" width="100%" class="siteExemplo" alt="">
-        <img src="img/telasClientes/screenLundgaard.png" width="100%" class="siteExemplo" alt="">
-        <img src="img/telasClientes/screenPoytara.png" width="100%" class="siteExemplo" alt="">
-        <img src="img/telasClientes/screenVistos.png" width="100%" class="siteExemplo" alt="">
+        <!-- Primeira fileira (Esquerda para direita) -->
+        <div class="owl-carousel first-row">
+            <img src="img/telasClientes/screenAcqualinda.png" width="100%" class="siteExemplo" alt="">
+            <img src="img/telasClientes/screenCeftem.jpg" width="100%" class="siteExemplo" alt="">
+            <img src="img/telasClientes/screenDuckbill.png" width="100%" class="siteExemplo" alt="">
+            <img src="img/telasClientes/screenFutmarketing.png" width="100%" class="siteExemplo" alt="">
+        </div>
+    
+        <!-- Segunda fileira (Direita para esquerda) -->
+        <div class="owl-carousel second-row">
+            <img src="img/telasClientes/screenLaVilla.png" width="100%" class="siteExemplo" alt="">
+            <img src="img/telasClientes/screenLundgaard.png" width="100%" class="siteExemplo" alt="">
+            <img src="img/telasClientes/screenPoytara.png" width="100%" class="siteExemplo" alt="">
+            <img src="img/telasClientes/screenVistos.png" width="100%" class="siteExemplo" alt="">
+        </div>
     </div>
+    
+    
+    
 
     <div class="container full bgIntegracao ptb100">
         <div class="container">
@@ -343,7 +354,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

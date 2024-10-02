@@ -396,6 +396,22 @@
 
 }
 
+/* Ajusta a primeira fileira (normal) */
+.first-row {
+    direction: ltr; /* Padrão: da esquerda para a direita */
+}
+
+/* Ajusta a segunda fileira para direção oposta */
+.second-row {
+    direction: ltr; /* A direção base é da esquerda para a direita */
+    transform: rotateY(180deg); /* Inverte visualmente o carrossel */
+}
+
+.second-row .siteExemplo {
+    transform: rotateY(180deg); /* Inverte os elementos de volta para que fiquem legíveis */
+}
+
+
 
 /* TEMA CLARO/ESCURO */
 .botaoTema {
