@@ -68,3 +68,22 @@ $(document).ready(function(){
         }
     });
 });
+
+
+// TROCAR TEMAS CLARO / ESCURO
+$(document).ready(function() {
+    // Inicializa o tema claro
+    $('.bgIntegracao').removeClass('escuro');
+
+    // Evento para o botão de tema claro
+    $('#temaClaro').on('click', function() {
+        $('.bgIntegracao').removeClass('escuro');
+        $('#temaImagem').attr('src', 'img/tema-claro.png');
+    });
+
+    // Evento para o botão de tema escuro
+    $('#temaEscuro').on('click', function() {
+        $('.bgIntegracao').addClass('escuro');
+        $('#temaImagem').attr('src', 'img/tema-escuro.png');
+    });
+});

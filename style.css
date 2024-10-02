@@ -1,3 +1,22 @@
+/* Tema claro */
+.bgIntegracao {
+    background: linear-gradient(180deg, #EEEEEE 0%, #DDDDDD 100%);
+}
+
+/* Tema escuro */
+.bgIntegracao.escuro {
+    background: linear-gradient(180deg, #333333 0%, #222222 100%);
+}
+
+.titulo {
+    color: #333; /* Cor do texto no tema claro */
+}
+
+.bgIntegracao.escuro .titulo {
+    color: #fff; /* Cor do texto no tema escuro */
+}
+
+
 /* MENU */
 .menuIcone {
     max-width: 25px;
