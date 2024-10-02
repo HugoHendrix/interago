@@ -296,7 +296,7 @@
 
 
 /* SITES DE EXEMPLOS */
-.siteExemplo { 
+.siteExemplo {
     margin-bottom: 30px;
     max-width: 345px;
     filter: grayscale(100%);
@@ -305,7 +305,7 @@
 
 
 /* TEMA CLARO/ESCURO */
-.botaoTema { 
+.botaoTema {
     margin-bottom: 50px;
     padding: 4px 8px;
     border-radius: 8px;
@@ -314,6 +314,102 @@
     font-weight: 500;
 }
 
+
+
+/* ACESSO RÁPIDO */
+.acessoBox {
+    width: 220px;
+    margin-bottom: 20px;
+    padding: 16px 26px;
+    border: 1px solid #CBCBCB;
+    border-radius: 5px;
+}
+
+.acessoTitulo {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #191919;
+}
+
+.acessoIcone {
+    margin-bottom: 10px;
+    max-width: 30px;
+}
+
+.acessoInfo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #191919;
+}
+
+
+
+/* TOPICOS */
+.topicos {
+    padding-top: 75px;
+}
+
+.topicosContainer {
+    border-left: 1px solid #CBCBCB;
+    padding: 20px;
+
+}
+
+.topicosTitulo {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #191919;
+}
+
+.topicoInfo {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #191919;
+    text-decoration: underline;
+}
+
+/* RODAPE */
+.rodapeContainer { 
+    padding: 90px 90px 20px;
+    border-radius: 40px 40px 0px 0px;    
+}
+
+.rodapeTitulo { 
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.rodapeSubtitulo { 
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.rodapeInfo { 
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.copyrightBox {
+    border-top: solid 1px #ffffff20;
+    padding-top: 20px;
+}
+
+.copy { 
+    padding-block: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
 
 
 
