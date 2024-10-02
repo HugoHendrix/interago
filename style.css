@@ -9,11 +9,13 @@
 }
 
 .titulo {
-    color: #333; /* Cor do texto no tema claro */
+    color: #333;
+    /* Cor do texto no tema claro */
 }
 
 .bgIntegracao.escuro .titulo {
-    color: #fff; /* Cor do texto no tema escuro */
+    color: #fff;
+    /* Cor do texto no tema escuro */
 }
 
 
@@ -43,7 +45,8 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Mantém a animação atrás do conteúdo */
+    z-index: -1;
+    /* Mantém a animação atrás do conteúdo */
     top: 0;
     left: 0;
 }
@@ -141,32 +144,39 @@
 .relatorioContainer {
     position: relative;
     width: 100%;
-    height: 650px; 
-    background-image: url('img/banner.png'); 
+    height: 650px;
+    background-image: url('img/banner.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    color: white; 
+    color: white;
     z-index: 4;
 }
 
 /* Ajuste nas imagens flutuantes */
-.relatorioVendas, .relatorioVisitas {
-    transition: transform 0.5s ease; /* Transição suave para hover */
-    opacity: 0.9; /* Torna as imagens levemente transparentes para elegância */
+.relatorioVendas,
+.relatorioVisitas {
+    transition: transform 0.5s ease;
+    /* Transição suave para hover */
+    opacity: 0.9;
+    /* Torna as imagens levemente transparentes para elegância */
 }
 
-.relatorioVendas:hover, .relatorioVisitas:hover {
-    transform: scale(1.05); /* Leve aumento no hover para destacar */
-    opacity: 1; /* Fica opaco ao passar o mouse */
+.relatorioVendas:hover,
+.relatorioVisitas:hover {
+    transform: scale(1.05);
+    /* Leve aumento no hover para destacar */
+    opacity: 1;
+    /* Fica opaco ao passar o mouse */
 }
 
 .relatorioVendas {
     position: absolute;
-    top: 5%; /* Ajuste fino de posicionamento */
+    top: 5%;
+    /* Ajuste fino de posicionamento */
     left: 5%;
     max-width: 470px;
     z-index: 2;
@@ -417,17 +427,21 @@
 
 /* Ajusta a primeira fileira (normal) */
 .first-row {
-    direction: ltr; /* Padrão: da esquerda para a direita */
+    direction: ltr;
+    /* Padrão: da esquerda para a direita */
 }
 
 /* Ajusta a segunda fileira para direção oposta */
 .second-row {
-    direction: ltr; /* A direção base é da esquerda para a direita */
-    transform: rotateY(180deg); /* Inverte visualmente o carrossel */
+    direction: ltr;
+    /* A direção base é da esquerda para a direita */
+    transform: rotateY(180deg);
+    /* Inverte visualmente o carrossel */
 }
 
 .second-row .siteExemplo {
-    transform: rotateY(180deg); /* Inverte os elementos de volta para que fiquem legíveis */
+    transform: rotateY(180deg);
+    /* Inverte os elementos de volta para que fiquem legíveis */
 }
 
 
@@ -451,6 +465,12 @@
     padding: 16px 26px;
     border: 1px solid #CBCBCB;
     border-radius: 5px;
+    transition: 500ms all;
+    cursor: pointer;
+}
+
+.acessoBox:hover {
+    border: 1px solid #1E71E3;
 }
 
 .acessoTitulo {
@@ -458,6 +478,7 @@
     font-weight: 700;
     line-height: 1.4;
     color: #191919;
+    transition: 500ms all;
 }
 
 .acessoIcone {
@@ -469,8 +490,16 @@
     font-size: 16px;
     font-weight: 700;
     color: #191919;
+    transition: 500ms all;
 }
 
+.acessoBox:hover {
+    border: 1px solid #1E71E3;
+}
+
+.acessoBox:hover .acessoInfo {
+    color: #1E71E3;
+}
 
 
 /* TOPICOS */
@@ -527,6 +556,26 @@
     font-weight: 400;
     color: #fff;
 }
+
+.rodapeIcones img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.rodapeIcones:hover img {
+    transform: scale(1.1);
+}
+
+
+.link {
+    transition: 500ms all;
+}
+
+.link:hover {
+    color: #1E71E3;
+
+}
+
 
 .copyrightBox {
     border-top: solid 1px #ffffff20;

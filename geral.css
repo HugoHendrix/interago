@@ -254,9 +254,14 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
 .bgIntegracao { background: linear-gradient(180deg, #EEEEEE 0%, #DDDDDD 100%); }
 
 
-.botao { color: #fff; font-size: 16px; font-weight: 600; padding: 6px 14px; border-radius: 18px; }
+.botao { color: #fff; font-size: 16px; font-weight: 600; padding: 6px 14px; border-radius: 18px; transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);  }
  
-.botaoAzul { background: linear-gradient(90.28deg, #1E71E3 0.24%, #3897F1 99.79%); border: 0; }
+.botaoAzul { background: linear-gradient(90.28deg, #1E71E3 0.24%, #3897F1 99.79%); border: 0;  }
+
+.botao:hover {
+   color: #fff;
+}
+
  
 .subtitulo { margin-bottom: 10px; font-size: 18px; font-weight: 500; line-height: 1.4; letter-spacing: 3.5%; color: #1E71E3; }
 
