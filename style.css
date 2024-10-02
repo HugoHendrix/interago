@@ -101,7 +101,6 @@
 
 
 
-
 /* LOGOS */
 .destaqueContainerLogo {
     display: flex;
@@ -127,21 +126,13 @@
     text-align: center;
 }
 
-.integracaoSubtitulo {
-    margin-bottom: 15px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.4;
-    letter-spacing: 3.5%;
-    color: #1E71E3;
-    ;
-}
-
 .integracaoTitulo {
     margin-bottom: 50px;
     font-size: 50px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.4;
+    color: #1A1A1A;
+
 }
 
 .integracaoDescricao {
@@ -256,15 +247,6 @@
 
 
 /* SEÇÃO OTIMIZADO PARA O GOOGLE */
-
-.otimizadoSubtitulo {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.4;
-    letter-spacing: 3.5%;
-    color: #1E71E3;
-}
-
 .otimizadoTitulo {
     margin-bottom: 80px;
     font-size: 50px;
@@ -321,6 +303,16 @@
 
 }
 
+
+/* TEMA CLARO/ESCURO */
+.botaoTema { 
+    margin-bottom: 50px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: 1px solid #a4a4a4;
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 
