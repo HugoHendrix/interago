@@ -270,10 +270,6 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
 
 
 
-/* 
-   Dispositivos mobile muito pequenos (ex: smartphones antigos, telas menores) 
-   Poucos dispositivos modernos têm essa resolução, então use com moderação.
-*/
 @media (max-width: 300px) {
     
   }
@@ -291,6 +287,7 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
      Este intervalo cobre a maioria dos smartphones padrão, como iPhones e Androids.
   */
   @media (min-width: 381px) and (max-width: 480px) {
+   
     
   }
   
@@ -299,7 +296,7 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
      Estes dispositivos incluem tablets pequenos e alguns phablets.
   */
   @media (min-width: 481px) and (max-width: 767px) {
-    
+
   }
   
   /* 
@@ -308,6 +305,7 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
   */
   @media (min-width: 768px) and (max-width: 991px) {
    
+ 
   }
   
   /* 

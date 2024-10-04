@@ -11,8 +11,11 @@ $(document).ready(function(){
             0: {
                 items: 1 // Quantidade de itens visíveis em telas pequenas
             },
-            600: {
+            300: {
                 items: 3 // Quantidade de itens visíveis em telas médias
+            },
+            600: {
+                items: 4 // Quantidade de itens visíveis em telas médias
             },
             1000: {
                 items: 5 // Quantidade de itens visíveis em telas grandes

@@ -596,6 +596,51 @@
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
+    .menuLogo {
+        margin-inline-start: 50px;
+    }
+
+    ´ .menuContainer {
+        justify-content: space-around;
+    }
+
+    .menuBotoes {
+        display: none;
+    }
+
+    .heroTitulo {
+        font-size: 42px;
+    }
+
+    .heroDescricao {
+        font-size: 17px;
+    }
+
+    .relatorioContainer {
+        height: 400px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .relatorioVisitas,
+    .relatorioVendas {
+        max-width: 130px;
+    }
+
+    .destaqueTitulo {
+        font-size: 32px;
+    }
+
+    .titulo {
+        font-size: 34px;
+    }
+
+    .destaqueLogo {
+        max-width: 110px;
+        margin: 0 28px;
+        filter: grayscale(100%);
+    }
+
     .infraContainer {
         flex-direction: column;
         gap: 30px;
@@ -603,5 +648,150 @@
 
     .integracaoCard {
         flex: 1 1 100%;
+    }
+
+    .integracaoLogo {
+        max-width: 150px;
+    }
+
+    .integracaoDescricao {
+        font-size: 14px;
+    }
+
+    .integracaoCard {
+        max-width: 220px;
+    }
+
+    .infraContainer {
+        padding: 10px;
+    }
+
+    .infraBox {
+        padding: 26px;
+        gap: 10px;
+        margin-block: 70px;
+
+    }
+
+    .otimizadoTitulo {
+        font-size: 32px;
+    }
+
+    .otimizadorIcone {
+        width: 30px;
+    }
+
+    .otimizadorDescricao {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .topicosMobile {
+        text-align: center;
+    }
+
+    .acessoBox {
+        text-align: center;
+        margin-inline: auto;
+
+    }
+
+    .topicosContainer {
+        border-top: 1px solid #CBCBCB;
+        border-left: transparent;
+        padding: 20px;
+    }
+
+    .rodapeContainer {
+        padding: 36px 26px;
+    }
+
+    .rodapeTitulo {
+        font-size: 32px;
+    }
+
+    .rodapeSubtitulo {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .copyrightBox {
+        flex-direction: column;
+    }
+
+    .copy {
+        padding-block: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .relatorioContainer {
+        height: 430px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .integracaoCard {
+        max-width: 190px;
+    }
+
+
+    .otimizadoTitulo {
+        font-size: 30px;
+
+    }
+
+    .otimizadorDescricao {
+        font-size: 17px;
+
+    }
+
+
+    .rodapeTitulo {
+        font-size: 34px;
+    }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .relatorioContainer {
+        height: 460px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .heroTitulo {
+        font-size: 60px;
+    }
+
+    .acessoBox {
+        width: 200px;
+    }
+
+    .otimizadorIcone {
+        width: 40px;
+        margin-right: 5px;
+    }
+    
+    .otimizadorDescricao {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.4;
+        letter-spacing: 3.5%;
+        color: #fff;
+        width: 80%;
     }
 }
